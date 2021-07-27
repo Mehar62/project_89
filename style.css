@@ -1,10 +1,13 @@
-body{
+.body{
     background-image: url('bg1.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.bg{
+    background-color: rgb(201, 48, 43);
 }
 .form_div{
     position: absolute;
@@ -27,6 +30,9 @@ input{
     border-right: none;
     border-left: none;
 }
+.btn-success{
+    box-shadow: 6px 6px 30px lightgreen !important;
+}
 .btn{
     outline: none !important;
     border: 1px solid lightblue;
@@ -44,4 +50,21 @@ h1{
     position: absolute;
     top: 100px;
     left: 45.5%;
+}
+#output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    box-shadow: 8px 8px 30px black;
+}
+
+#num1,
+#num2{
+    box-shadow: 8px 8px 30px white;
+}
+h2{
+    text-shadow: 5px 5px 15px black;
 }
